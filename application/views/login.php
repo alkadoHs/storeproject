@@ -52,7 +52,7 @@
         </svg>
     </button>
     </div>
-    <form class="space-y-6" action="#" method="POST">
+    <form class="space-y-6" action="<?php echo base_url('auth/dashboard') ?>" method="POST">
       <div>
         <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
         <div class="mt-2">

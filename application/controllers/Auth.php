@@ -9,4 +9,8 @@ class Auth extends CI_Controller
     public function register() {
         $this->load->view('signup');
     }
+
+     public function dashboard() {
+        $this->load->view('dashboard');
+    }
 }
